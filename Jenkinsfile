@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'my-python-wsgi-app'
         APP_CONTAINER = 'python-wsgi-container'
-        APP_PORT = '5000'
+        APP_PORT = '6000'
     }
 
     stages {
