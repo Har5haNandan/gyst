@@ -18,7 +18,7 @@ RUN pip install --upgrade pip && \
 COPY . .
 
 # Expose port
-EXPOSE 5000
+EXPOSE 6000
 
 # Set default command (assuming your wsgi.py starts the app when run with `python wsgi.py`)
 CMD ["python", "wsgi.py"]
